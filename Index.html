@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GKK Fast Food Survey</title>
+    <style>
+	/* Add styles for the red heading background */
+        h1 {
+            background-color: red;
+            color: white; /* To ensure text is readable */
+            padding: 20px; /* Add padding for better visibility */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url'C:\Users\Carolle Rithaa\Desktop\New folder\menu-3206748_1280';
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .survey-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .survey-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .survey-form input[type="text"],
+        .survey-form select,
+        .survey-form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .survey-form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .survey-form button[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Image Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('file:///C:/Users/Carolle%20Rithaa/Desktop/New%20folder/menu-3206748_1280.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GKK Fast Food Survey</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Our Products</a>
+    </nav>
+    <div class="container">
+        <h2 class="survey-heading">Fast Food Survey Form</h2>
+        <form class="survey-form">
+            <div class="survey-question">
+                <label for="gender">1. Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="survey-question">
+                <label for="favorite-food">2. What is your favorite fast food?</label>
+                <input type="text" id="favorite-food" name="favorite-food" required>
+            </div>
+            <div class="survey-question">
+                <label for="missing-menu">3. Is there anything missing in our menu?</label>
+                <textarea id="missing-menu" name="missing-menu" rows="4"></textarea>
+            </div>
+            <div class="survey-question">
+                <label for="service-rating">4. How would you rate our services?</label>
+                <input type="radio" id="excellent" name="service-rating" value="excellent">
+                <label for="excellent">Excellent</label>
+                <input type="radio" id="good" name="service-rating" value="good">
+                <label for="good">Good</label>
+                <input type="radio" id="average" name="service-rating" value="average">
+                <label for="average">Average</label>
+                <input type="radio" id="below-average" name="service-rating" value="below-average">
+                <label for="below-average">Below Average</label>
+                <input type="radio" id="poor" name="service-rating" value="poor">
+                <label for="poor">Poor</label>
+            </div>
+            <div class="survey-question">
+                <label for="cleanliness">5. Did our restaurant meet your standard of cleanliness and hygiene?</label>
+                <input type="radio" id="yes" name="cleanliness" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="cleanliness" value="no">
+                <label for="no">No</label>
+            </div>
+            <div class="survey-question">
+                <label for="better-service">6. How could we serve you better in the future?</label>
+                <textarea id="better-service" name="better-service" rows="4"></textarea>
+            </div>
+            <div class="survey-question">
+                <label for="environment-feedback">7. What do you think about our fast food environment?</label>
+                <input type="text" id="environment-feedback" name="environment-feedback" required>
+            </div>
+            <div class="survey-question">
+                <label for="service-rating-2">8. How would you rate our services overall?</label>
+                <input type="radio" id="excellent-2" name="service-rating-2" value="excellent">
+                <label for="excellent-2">Excellent</label>
+                <input type="radio" id="good-2" name="service-rating-2" value="good">
+                <label for="good-2">Good</label>
+                <input type="radio" id="average-2" name="service-rating-2" value="average">
+                <label for="average-2">Average</label>
+                <input type="radio" id="below-average-2" name="service-rating-2" value="below-average">
+                <label for="below-average-2">Below Average</label>
+                <input type="radio" id="poor-2" name="service-rating-2" value="poor">
+                <label for="poor-2">Poor</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
